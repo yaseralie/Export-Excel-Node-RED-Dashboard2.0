@@ -1,0 +1,3239 @@
+[
+    {
+        "id": "414425cfb3470fc7",
+        "type": "tab",
+        "label": "Upload CSV Order",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c3dd6c92241f1ea1",
+        "type": "tab",
+        "label": "View Edit Order",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "13df15be7a8aa21e",
+        "type": "group",
+        "z": "414425cfb3470fc7",
+        "name": "Display CSV and Button to send data to database",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1bc9ab9e41303df4",
+            "24be2d61dc11c5ac",
+            "607c960b3f42a176",
+            "66adc55b46fb9836",
+            "98db571fa997d215",
+            "17b7a8436e61d052",
+            "2ba390bbc5416797",
+            "04ca4d823fa3f908",
+            "750dea8dc6e59106",
+            "01ff2755f69aad65",
+            "cd8f5ac7c31727ce",
+            "d35c97c3b8076694",
+            "1180933e2fbce672",
+            "75ca0b44bef85cb1",
+            "fa99fa9a479e6258",
+            "53827185e12fe8ac",
+            "0ef915cbb69ea9bc",
+            "ec4d6dafcecf3c67",
+            "f51ca21b1dcbdd30",
+            "78367d15d481b2a1",
+            "0cfa7f113fa1d615",
+            "ca8242e8861192aa",
+            "042ad167218f68d2",
+            "17e00ae2a5803851",
+            "10d4a9d11708d77f",
+            "a0b231fe31f18cba",
+            "4bff261e001373ae",
+            "5bda5676bf1004d0",
+            "979e193bb13dd9a8"
+        ],
+        "x": 54,
+        "y": 19,
+        "w": 1332,
+        "h": 502
+    },
+    {
+        "id": "d69249eb60c79690",
+        "type": "group",
+        "z": "c3dd6c92241f1ea1",
+        "name": "View Table Order",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1d1bbe2b1fbc5e46",
+            "bb92330e6896de44",
+            "274bf348a07a0596",
+            "8202fa89c2e75955",
+            "bd93eda6238c1faa",
+            "33b98a8f26a44cfa",
+            "4f0b2c33eb27b4f1",
+            "d3d5ae51ee6310e8",
+            "90ee00cfb8afe420",
+            "c0846a58e476e959",
+            "85b61678e2ea83f4",
+            "804464cd30461e67",
+            "1393199ab01561e1",
+            "e4d48a2d2009aa28",
+            "7df98c851030a59d",
+            "f2146d0f0f83fa17",
+            "8c527b6c5837015c",
+            "8d485314bf7ae70e",
+            "85baaf6bd342d1a0",
+            "cb19bb6edec3ba77",
+            "91b12a05ce16da8a",
+            "a383b504197933c2",
+            "1e5b039aea69d8d4",
+            "93f3e0288fffef83",
+            "7d6d8d824112089a",
+            "29f05f024ad2eb2d",
+            "c1e342c876abe79f",
+            "4b7c43e879e106cb"
+        ],
+        "x": 74,
+        "y": 19,
+        "w": 1102,
+        "h": 422
+    },
+    {
+        "id": "12245006e538e18d",
+        "type": "group",
+        "z": "c3dd6c92241f1ea1",
+        "name": "Delete Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f34e45b6ecb581bc",
+            "be41188e188909db",
+            "55d596ae0ea1dd88",
+            "f3054fde408ef388",
+            "825dd0e5da2f26de",
+            "57d038eff4f0c71b",
+            "31085c838644bb3e",
+            "2d524d61e7979221",
+            "0fd254b65395c022",
+            "64a1d40c4521730e",
+            "455c8a411ff644a5",
+            "5b21f066088d2cf6",
+            "1794225ba2c03635",
+            "dc69a5bba8b176f8",
+            "f667bdfcb012d9d6",
+            "b1e5854b45b58f51",
+            "64283b5548810e3d",
+            "af59495c66304a29",
+            "c36f039101fe814d",
+            "1148d4178b7723b6",
+            "9c66c522405889f3",
+            "e59bd5cf89d392cc",
+            "bf09299883503e9d"
+        ],
+        "x": 74,
+        "y": 699,
+        "w": 1732,
+        "h": 262
+    },
+    {
+        "id": "b167039e773d3b1a",
+        "type": "group",
+        "z": "c3dd6c92241f1ea1",
+        "name": "Download Page",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b7d65fb58550f078",
+            "b7b98be0523602d6",
+            "a65f5e7ff8fbb119",
+            "a99cc252c81f3241",
+            "00cdf977f9f2cb20",
+            "919757c216d70e99",
+            "e9bb28210f386107"
+        ],
+        "x": 74,
+        "y": 1299,
+        "w": 912,
+        "h": 142
+    },
+    {
+        "id": "9d761a91d8918c78",
+        "type": "group",
+        "z": "c3dd6c92241f1ea1",
+        "name": "Trigger Download Page",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3acff1e16a0c8eb6"
+        ],
+        "x": 74,
+        "y": 1159,
+        "w": 172,
+        "h": 82
+    },
+    {
+        "id": "d483ae89d35a741d",
+        "type": "group",
+        "z": "c3dd6c92241f1ea1",
+        "name": "Edit Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "90a1f389978bcbc9",
+            "d9420cb8c0114212",
+            "9bb5a9649cae2ced",
+            "80a6e417206a1eec",
+            "a1fbf387eca1b6b8",
+            "c789a7d995deaa45",
+            "30919569531bbbb5",
+            "e4206587072dbd76",
+            "dbee3eaadb3872c4",
+            "453910053bf0a260",
+            "9182fa657f415ad5",
+            "2759287e984686ee",
+            "6eef2f9a7f4d9137"
+        ],
+        "x": 74,
+        "y": 459,
+        "w": 1012,
+        "h": 222
+    },
+    {
+        "id": "a6b41ce0bd1dc390",
+        "type": "group",
+        "z": "c3dd6c92241f1ea1",
+        "name": "Insert New Record",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1c6a0152c1ecd78e",
+            "50c4303916886a25",
+            "14be6114fd25a264",
+            "5a9670bc134e2ccf",
+            "7c49a7acd25f6983",
+            "976f45e4bbd939d1",
+            "3ec0edd5494e81c7",
+            "e12954c0764dab60",
+            "0a13270cc9bfecd6"
+        ],
+        "x": 74,
+        "y": 979,
+        "w": 1252,
+        "h": 142
+    },
+    {
+        "id": "f19e3e07e8473cce",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d39353cd.91093",
+        "type": "postgresDB",
+        "name": "postgres@127.0.0.1:5432/OEE",
+        "host": "192.168.0.101",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "test",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "max": "10",
+        "maxFieldType": "num",
+        "min": "1",
+        "minFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "123",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "ea5c3d2dcfb3462e",
+        "type": "ui-group",
+        "name": "Upload CSV File",
+        "page": "76f6b77509a74a17",
+        "width": "12",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "2daa43f2ba1b1c32",
+        "type": "ui-base",
+        "name": "UI Name",
+        "path": "/dashboard"
+    },
+    {
+        "id": "76f6b77509a74a17",
+        "type": "ui-page",
+        "name": "Upload CSV",
+        "ui": "2daa43f2ba1b1c32",
+        "path": "/",
+        "icon": "upload",
+        "layout": "grid",
+        "theme": "c5ed292f3032aa43",
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "b73dc5151c8cd587",
+        "type": "ui-group",
+        "name": "CSV Table",
+        "page": "76f6b77509a74a17",
+        "width": "12",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "c5ed292f3032aa43",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#16709c",
+            "primary": "#0094ce",
+            "bgPage": "#828282",
+            "groupBg": "#ffffff",
+            "groupOutline": "#242323"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "67f1643d7a8fdfdd",
+        "type": "ui-page",
+        "name": "View & Edit Data",
+        "ui": "2daa43f2ba1b1c32",
+        "path": "/view",
+        "icon": "table",
+        "layout": "grid",
+        "theme": "c5ed292f3032aa43",
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "cb26f0fdda386fe7",
+        "type": "ui-group",
+        "name": "View Data",
+        "page": "67f1643d7a8fdfdd",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "649fd14f6796fc42",
+        "type": "ui-group",
+        "name": "Edit Data",
+        "page": "67f1643d7a8fdfdd",
+        "width": "12",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "a1e08ea77703ac6b",
+        "type": "ui-group",
+        "name": "Setting Separator",
+        "page": "76f6b77509a74a17",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "53e4bfc0a27b69e4",
+        "type": "ui-group",
+        "name": "Insert New Record",
+        "page": "67f1643d7a8fdfdd",
+        "width": "12",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "0ef915cbb69ea9bc",
+        "type": "postgrestor",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "Insert data row",
+        "query": "INSERT INTO username(username, user_id, first_name, last_name) \nVALUES('{{msg.username}}','{{msg.user_id}}','{{msg.first_name}}','{{msg.last_name}}')",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 1100,
+        "y": 480,
+        "wires": [
+            [
+                "ca8242e8861192aa"
+            ]
+        ]
+    },
+    {
+        "id": "d35c97c3b8076694",
+        "type": "loop",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "kind": "enum",
+        "count": "",
+        "initial": "1",
+        "step": "1",
+        "condition": "",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "dataset",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-index",
+        "finalPayload": "final-last",
+        "x": 570,
+        "y": 320,
+        "wires": [
+            [
+                "0cfa7f113fa1d615"
+            ],
+            [
+                "1180933e2fbce672"
+            ]
+        ]
+    },
+    {
+        "id": "1180933e2fbce672",
+        "type": "change",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "dataset",
+                "pt": "msg",
+                "to": "$type(msg.loop.key) != \"undefined\" ?\tmsg.loop.key & \": \" & msg.loop.value :\tmsg.loop.value",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 200,
+        "y": 400,
+        "wires": [
+            [
+                "d35c97c3b8076694",
+                "ec4d6dafcecf3c67"
+            ]
+        ]
+    },
+    {
+        "id": "75ca0b44bef85cb1",
+        "type": "postgrestor",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "Check Data",
+        "query": "SELECT * FROM username where user_id='{{msg.user_id}}'",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 650,
+        "y": 400,
+        "wires": [
+            [
+                "fa99fa9a479e6258",
+                "78367d15d481b2a1"
+            ]
+        ]
+    },
+    {
+        "id": "fa99fa9a479e6258",
+        "type": "switch",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "If Data Exist",
+        "property": "payload.rowCount",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 890,
+        "y": 400,
+        "wires": [
+            [
+                "53827185e12fe8ac"
+            ],
+            [
+                "0ef915cbb69ea9bc"
+            ]
+        ]
+    },
+    {
+        "id": "cd8f5ac7c31727ce",
+        "type": "function",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "Set dataset",
+        "func": "msg.dataset = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 320,
+        "wires": [
+            [
+                "d35c97c3b8076694"
+            ]
+        ]
+    },
+    {
+        "id": "53827185e12fe8ac",
+        "type": "template",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Some Data already exist!<br>",
+        "output": "str",
+        "x": 1080,
+        "y": 380,
+        "wires": [
+            [
+                "f51ca21b1dcbdd30"
+            ]
+        ]
+    },
+    {
+        "id": "1bc9ab9e41303df4",
+        "type": "ui-template",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "group": "ea5c3d2dcfb3462e",
+        "page": "",
+        "ui": "",
+        "name": "UPLOAD",
+        "order": 2,
+        "width": "12",
+        "height": "1",
+        "head": "",
+        "format": "<v-file-input show-size multiple chips :rules=\"rules\" accept=\".csv\"\n    variant=\"underlined\" label=\"File input\" v-on:change=\"uploadFile\" v-model=\"value\"\n    active-color=\"primary\" @update:modelValue=\"send({payload: value})\" />\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 160,
+        "y": 120,
+        "wires": [
+            [
+                "24be2d61dc11c5ac"
+            ]
+        ]
+    },
+    {
+        "id": "24be2d61dc11c5ac",
+        "type": "change",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "979e193bb13dd9a8"
+            ]
+        ]
+    },
+    {
+        "id": "607c960b3f42a176",
+        "type": "function",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "Convert Hex to String",
+        "func": "const hexBuffer = msg.payload;\n\n// Convert the hex buffer to a Buffer object\nconst buffer = Buffer.from(hexBuffer, 'hex');\n\n// Convert the Buffer to a string\nconst string = buffer.toString();\n\n// Assign the string to msg.payload for further processing\nmsg.payload = string;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "10d4a9d11708d77f"
+            ]
+        ]
+    },
+    {
+        "id": "66adc55b46fb9836",
+        "type": "csv",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 670,
+        "y": 160,
+        "wires": [
+            [
+                "2ba390bbc5416797"
+            ]
+        ]
+    },
+    {
+        "id": "98db571fa997d215",
+        "type": "ui-table",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "group": "b73dc5151c8cd587",
+        "name": "",
+        "label": "text",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "autocols": true,
+        "columns": [],
+        "x": 1130,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "17b7a8436e61d052",
+        "type": "ui-button",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "group": "b73dc5151c8cd587",
+        "name": "",
+        "label": "Record to Database",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "CSV",
+        "payloadType": "flow",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "04ca4d823fa3f908"
+            ]
+        ]
+    },
+    {
+        "id": "2ba390bbc5416797",
+        "type": "change",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CSV",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 220,
+        "wires": [
+            [
+                "98db571fa997d215"
+            ]
+        ]
+    },
+    {
+        "id": "04ca4d823fa3f908",
+        "type": "change",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "CSV",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "cd8f5ac7c31727ce"
+            ]
+        ]
+    },
+    {
+        "id": "750dea8dc6e59106",
+        "type": "inject",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 770,
+        "y": 260,
+        "wires": [
+            [
+                "01ff2755f69aad65"
+            ]
+        ]
+    },
+    {
+        "id": "01ff2755f69aad65",
+        "type": "change",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 260,
+        "wires": [
+            [
+                "98db571fa997d215"
+            ]
+        ]
+    },
+    {
+        "id": "ec4d6dafcecf3c67",
+        "type": "change",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "Get data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "msg",
+                "to": "dataset[\"username\"]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "user_id",
+                "pt": "msg",
+                "to": "dataset[\"user_id\"]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "first_name",
+                "pt": "msg",
+                "to": "dataset[\"first_name\"]",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "last_name",
+                "pt": "msg",
+                "to": "dataset[\"last_name\"]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 400,
+        "wires": [
+            [
+                "75ca0b44bef85cb1"
+            ]
+        ]
+    },
+    {
+        "id": "f51ca21b1dcbdd30",
+        "type": "ui-notification",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "ui": "2daa43f2ba1b1c32",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 0,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "raw": true,
+        "className": "",
+        "name": "",
+        "x": 1270,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "78367d15d481b2a1",
+        "type": "switch",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "error",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1070,
+        "y": 320,
+        "wires": [
+            [
+                "f51ca21b1dcbdd30"
+            ]
+        ]
+    },
+    {
+        "id": "0cfa7f113fa1d615",
+        "type": "delay",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 780,
+        "y": 320,
+        "wires": [
+            [
+                "01ff2755f69aad65"
+            ]
+        ]
+    },
+    {
+        "id": "ca8242e8861192aa",
+        "type": "template",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Data has been recorded to database!",
+        "output": "str",
+        "x": 1080,
+        "y": 420,
+        "wires": [
+            [
+                "f51ca21b1dcbdd30"
+            ]
+        ]
+    },
+    {
+        "id": "042ad167218f68d2",
+        "type": "ui-radio-group",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "group": "a1e08ea77703ac6b",
+        "name": "Separator",
+        "label": "Select Separator",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "columns": 1,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Comma",
+                "value": "Comma",
+                "type": "str"
+            },
+            {
+                "label": "Semicolon",
+                "value": "Semicolon",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "a0b231fe31f18cba"
+            ]
+        ]
+    },
+    {
+        "id": "17e00ae2a5803851",
+        "type": "inject",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "Semicolon",
+        "payloadType": "str",
+        "x": 170,
+        "y": 60,
+        "wires": [
+            [
+                "042ad167218f68d2"
+            ]
+        ]
+    },
+    {
+        "id": "10d4a9d11708d77f",
+        "type": "switch",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "property": "separator",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Comma",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Semicolon",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "66adc55b46fb9836"
+            ],
+            [
+                "4bff261e001373ae"
+            ]
+        ]
+    },
+    {
+        "id": "a0b231fe31f18cba",
+        "type": "change",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "separator",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 60,
+        "wires": [
+            [
+                "5bda5676bf1004d0"
+            ]
+        ]
+    },
+    {
+        "id": "4bff261e001373ae",
+        "type": "csv",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "sep": ";",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 670,
+        "y": 220,
+        "wires": [
+            [
+                "2ba390bbc5416797"
+            ]
+        ]
+    },
+    {
+        "id": "5bda5676bf1004d0",
+        "type": "ui-text",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "group": "ea5c3d2dcfb3462e",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "name": "",
+        "label": "Current Separator: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 750,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "979e193bb13dd9a8",
+        "type": "switch",
+        "z": "414425cfb3470fc7",
+        "g": "13df15be7a8aa21e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 120,
+        "wires": [
+            [
+                "607c960b3f42a176"
+            ]
+        ]
+    },
+    {
+        "id": "1d1bbe2b1fbc5e46",
+        "type": "comment",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "List Work Order",
+        "info": "",
+        "x": 200,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "bb92330e6896de44",
+        "type": "inject",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Init empty",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "274bf348a07a0596"
+            ]
+        ]
+    },
+    {
+        "id": "274bf348a07a0596",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Get data",
+        "query": "SELECT distinct username FROM username",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 380,
+        "y": 120,
+        "wires": [
+            [
+                "8202fa89c2e75955"
+            ]
+        ]
+    },
+    {
+        "id": "8202fa89c2e75955",
+        "type": "function",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "create array",
+        "func": "var list_username = msg.payload.rows.map(function(row) {\n  return row['username'];\n});\n\nmsg.payload = list_username;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 120,
+        "wires": [
+            [
+                "bd93eda6238c1faa"
+            ]
+        ]
+    },
+    {
+        "id": "bd93eda6238c1faa",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "options",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 120,
+        "wires": [
+            [
+                "33b98a8f26a44cfa"
+            ]
+        ]
+    },
+    {
+        "id": "33b98a8f26a44cfa",
+        "type": "ui-dropdown",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "group": "cb26f0fdda386fe7",
+        "name": "",
+        "label": "Select Username:",
+        "tooltip": "",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1030,
+        "y": 120,
+        "wires": [
+            [
+                "91b12a05ce16da8a"
+            ]
+        ]
+    },
+    {
+        "id": "4f0b2c33eb27b4f1",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Get data",
+        "query": "select *\nFROM username\nWHERE username='{{msg.payload}}'",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 780,
+        "y": 160,
+        "wires": [
+            [
+                "d3d5ae51ee6310e8",
+                "804464cd30461e67"
+            ]
+        ]
+    },
+    {
+        "id": "d3d5ae51ee6310e8",
+        "type": "function",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "create array",
+        "func": "\nvar i;\nvar list_username = [];\nfor (i = 0; i < msg.payload.rows.length; i++) \n{\n  list_username.push({\"Username\":msg.payload.rows[i]['username'],\"User ID\":msg.payload.rows[i]['user_id'],\n  \"First Name\":msg.payload.rows[i]['first_name'],\"Last Name\":msg.payload.rows[i]['last_name']});\n}\n\nmsg.payload = list_username;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 220,
+        "wires": [
+            [
+                "90ee00cfb8afe420"
+            ]
+        ]
+    },
+    {
+        "id": "90ee00cfb8afe420",
+        "type": "ui-table",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "group": "cb26f0fdda386fe7",
+        "name": "",
+        "label": "text",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "autocols": true,
+        "columns": [],
+        "x": 790,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "90a1f389978bcbc9",
+        "type": "ui-form",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "group": "649fd14f6796fc42",
+        "label": "Form Edit Data",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "options": [
+            {
+                "label": "First Name",
+                "key": "first_name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Last Name",
+                "key": "last_name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "first_name": "",
+            "last_name": ""
+        },
+        "payload": "",
+        "submit": "Update Data",
+        "cancel": "Clear",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "d9420cb8c0114212"
+            ]
+        ]
+    },
+    {
+        "id": "c0846a58e476e959",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 280,
+        "wires": [
+            [
+                "90ee00cfb8afe420"
+            ]
+        ]
+    },
+    {
+        "id": "85b61678e2ea83f4",
+        "type": "inject",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 510,
+        "y": 280,
+        "wires": [
+            [
+                "c0846a58e476e959"
+            ]
+        ]
+    },
+    {
+        "id": "804464cd30461e67",
+        "type": "switch",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "",
+        "property": "payload.rowCount",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 280,
+        "wires": [
+            [
+                "e4d48a2d2009aa28",
+                "8c527b6c5837015c"
+            ]
+        ]
+    },
+    {
+        "id": "1393199ab01561e1",
+        "type": "ui-text",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "group": "649fd14f6796fc42",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "Selected Username:  ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 1040,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e4d48a2d2009aa28",
+        "type": "function",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "String selected",
+        "func": "var str = msg.username\nmsg.payload = str;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 320,
+        "wires": [
+            [
+                "1393199ab01561e1"
+            ]
+        ]
+    },
+    {
+        "id": "7df98c851030a59d",
+        "type": "inject",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "reset",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 630,
+        "y": 400,
+        "wires": [
+            [
+                "f2146d0f0f83fa17"
+            ]
+        ]
+    },
+    {
+        "id": "f2146d0f0f83fa17",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Reset Flow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "flow",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 400,
+        "wires": [
+            [
+                "1393199ab01561e1"
+            ]
+        ]
+    },
+    {
+        "id": "d9420cb8c0114212",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "Get variable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "msg",
+                "to": "username",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "first_name",
+                "pt": "msg",
+                "to": "payload.first_name",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "last_name",
+                "pt": "msg",
+                "to": "payload.last_name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 540,
+        "wires": [
+            [
+                "9bb5a9649cae2ced"
+            ]
+        ]
+    },
+    {
+        "id": "9bb5a9649cae2ced",
+        "type": "switch",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "property": "username",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "a1fbf387eca1b6b8"
+            ],
+            [
+                "9182fa657f415ad5"
+            ]
+        ]
+    },
+    {
+        "id": "80a6e417206a1eec",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "Update Data",
+        "query": "Update username SET first_name='{{msg.first_name}}', last_name='{{msg.last_name}}'\nWHERE username='{{msg.username}}'",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 710,
+        "y": 640,
+        "wires": [
+            [
+                "30919569531bbbb5",
+                "6eef2f9a7f4d9137"
+            ]
+        ]
+    },
+    {
+        "id": "a1fbf387eca1b6b8",
+        "type": "template",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Please select username by sorting from the table!",
+        "output": "str",
+        "x": 720,
+        "y": 500,
+        "wires": [
+            [
+                "c789a7d995deaa45"
+            ]
+        ]
+    },
+    {
+        "id": "c789a7d995deaa45",
+        "type": "ui-notification",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "ui": "2daa43f2ba1b1c32",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "10",
+        "showCountdown": true,
+        "outputs": 0,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "raw": true,
+        "className": "",
+        "name": "",
+        "x": 970,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "30919569531bbbb5",
+        "type": "switch",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "property": "payload.rowCount",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 890,
+        "y": 600,
+        "wires": [
+            [
+                "e4206587072dbd76"
+            ]
+        ]
+    },
+    {
+        "id": "e4206587072dbd76",
+        "type": "template",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Data has been updated!<br>\n<br>\nFirst Name: {{first_name}}<br>\nLast Name: {{last_name}}<br>\n\nWhere Username: {{username}}<br>\n<br>\nYou can reselect sorting text to update table",
+        "output": "str",
+        "x": 720,
+        "y": 540,
+        "wires": [
+            [
+                "c789a7d995deaa45"
+            ]
+        ]
+    },
+    {
+        "id": "dbee3eaadb3872c4",
+        "type": "template",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Data already exist in Database!<br>\nCannot Update This Data<br>\nFirst Name: {{first_name}}<br>\nLast Name: {{last_name}}\n",
+        "output": "str",
+        "x": 720,
+        "y": 600,
+        "wires": [
+            [
+                "c789a7d995deaa45"
+            ]
+        ]
+    },
+    {
+        "id": "453910053bf0a260",
+        "type": "link out",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "link out 10",
+        "mode": "link",
+        "links": [
+            "dfbf86f4b2c4b977",
+            "1e5b039aea69d8d4"
+        ],
+        "x": 1035,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "be41188e188909db",
+        "type": "ui-button",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "group": "649fd14f6796fc42",
+        "name": "",
+        "label": "Delete Selected Data / Cancel",
+        "order": 0,
+        "width": "12",
+        "height": "1",
+        "passthru": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "label_delete",
+        "payloadType": "flow",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 800,
+        "wires": [
+            [
+                "0fd254b65395c022"
+            ]
+        ]
+    },
+    {
+        "id": "55d596ae0ea1dd88",
+        "type": "inject",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 760,
+        "wires": [
+            [
+                "f3054fde408ef388"
+            ]
+        ]
+    },
+    {
+        "id": "f3054fde408ef388",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "label_delete",
+                "pt": "flow",
+                "to": "Delete",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 800,
+        "wires": [
+            [
+                "be41188e188909db"
+            ]
+        ]
+    },
+    {
+        "id": "825dd0e5da2f26de",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "Set True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 860,
+        "wires": [
+            [
+                "be41188e188909db"
+            ]
+        ]
+    },
+    {
+        "id": "8c527b6c5837015c",
+        "type": "link out",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "link out 16",
+        "mode": "link",
+        "links": [
+            "57d038eff4f0c71b"
+        ],
+        "x": 1135,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "57d038eff4f0c71b",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "link in 18",
+        "links": [
+            "8c527b6c5837015c"
+        ],
+        "x": 175,
+        "y": 860,
+        "wires": [
+            [
+                "825dd0e5da2f26de"
+            ]
+        ]
+    },
+    {
+        "id": "31085c838644bb3e",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "Set False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 900,
+        "wires": [
+            [
+                "be41188e188909db"
+            ]
+        ]
+    },
+    {
+        "id": "8d485314bf7ae70e",
+        "type": "link out",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "link out 17",
+        "mode": "link",
+        "links": [
+            "2d524d61e7979221",
+            "85baaf6bd342d1a0"
+        ],
+        "x": 335,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2d524d61e7979221",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "link in 19",
+        "links": [
+            "8d485314bf7ae70e",
+            "86be9f577123a640"
+        ],
+        "x": 175,
+        "y": 900,
+        "wires": [
+            [
+                "31085c838644bb3e"
+            ]
+        ]
+    },
+    {
+        "id": "85baaf6bd342d1a0",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "link in 20",
+        "links": [
+            "8d485314bf7ae70e",
+            "86be9f577123a640"
+        ],
+        "x": 625,
+        "y": 360,
+        "wires": [
+            [
+                "cb19bb6edec3ba77"
+            ]
+        ]
+    },
+    {
+        "id": "cb19bb6edec3ba77",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Reset Item No",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "flow",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 360,
+        "wires": [
+            [
+                "1393199ab01561e1"
+            ]
+        ]
+    },
+    {
+        "id": "0fd254b65395c022",
+        "type": "switch",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Delete",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Cancel",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 770,
+        "y": 800,
+        "wires": [
+            [
+                "f34e45b6ecb581bc",
+                "64a1d40c4521730e"
+            ],
+            [
+                "5b21f066088d2cf6"
+            ]
+        ]
+    },
+    {
+        "id": "f34e45b6ecb581bc",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "Set cancel",
+        "rules": [
+            {
+                "t": "set",
+                "p": "label_delete",
+                "pt": "flow",
+                "to": "Cancel",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 740,
+        "wires": [
+            [
+                "be41188e188909db"
+            ]
+        ]
+    },
+    {
+        "id": "64a1d40c4521730e",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "Set True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 800,
+        "wires": [
+            [
+                "455c8a411ff644a5"
+            ]
+        ]
+    },
+    {
+        "id": "455c8a411ff644a5",
+        "type": "ui-button",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "group": "649fd14f6796fc42",
+        "name": "",
+        "label": "Confirm to delete data?",
+        "order": 0,
+        "width": "12",
+        "height": "1",
+        "passthru": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "item_no",
+        "payloadType": "flow",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1210,
+        "y": 800,
+        "wires": [
+            [
+                "f667bdfcb012d9d6"
+            ]
+        ]
+    },
+    {
+        "id": "5b21f066088d2cf6",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 860,
+        "wires": [
+            [
+                "455c8a411ff644a5",
+                "e59bd5cf89d392cc"
+            ]
+        ]
+    },
+    {
+        "id": "1794225ba2c03635",
+        "type": "ui-notification",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "ui": "2daa43f2ba1b1c32",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "10",
+        "showCountdown": true,
+        "outputs": 0,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "raw": true,
+        "className": "",
+        "name": "",
+        "x": 1690,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "dc69a5bba8b176f8",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "Delete Data",
+        "query": "DELETE FROM username\nWHERE username='{{msg.username}}'",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 1310,
+        "y": 860,
+        "wires": [
+            [
+                "b1e5854b45b58f51"
+            ]
+        ]
+    },
+    {
+        "id": "f667bdfcb012d9d6",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "Get variable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "msg",
+                "to": "username",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1450,
+        "y": 800,
+        "wires": [
+            [
+                "dc69a5bba8b176f8"
+            ]
+        ]
+    },
+    {
+        "id": "b1e5854b45b58f51",
+        "type": "switch",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "",
+        "property": "payload.rowCount",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1470,
+        "y": 860,
+        "wires": [
+            [
+                "64283b5548810e3d",
+                "af59495c66304a29"
+            ]
+        ]
+    },
+    {
+        "id": "64283b5548810e3d",
+        "type": "template",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Data has been deleted!<br>\n<br>\nUsername: {{username}}<br>\n\n",
+        "output": "str",
+        "x": 1660,
+        "y": 840,
+        "wires": [
+            [
+                "1794225ba2c03635"
+            ]
+        ]
+    },
+    {
+        "id": "af59495c66304a29",
+        "type": "link out",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "link out 19",
+        "mode": "link",
+        "links": [
+            "e5d01ea780e0ac2e",
+            "c36f039101fe814d",
+            "1148d4178b7723b6",
+            "7d6d8d824112089a"
+        ],
+        "x": 1615,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "c36f039101fe814d",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "link in 22",
+        "links": [
+            "af59495c66304a29"
+        ],
+        "x": 755,
+        "y": 860,
+        "wires": [
+            [
+                "5b21f066088d2cf6"
+            ]
+        ]
+    },
+    {
+        "id": "1148d4178b7723b6",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "link in 23",
+        "links": [
+            "af59495c66304a29",
+            "e59bd5cf89d392cc"
+        ],
+        "x": 115,
+        "y": 800,
+        "wires": [
+            [
+                "f3054fde408ef388"
+            ]
+        ]
+    },
+    {
+        "id": "9c66c522405889f3",
+        "type": "inject",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "Init empty",
+        "props": [
+            {
+                "p": "enabled",
+                "v": "false",
+                "vt": "bool"
+            },
+            {
+                "p": "label",
+                "v": "-",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 940,
+        "y": 760,
+        "wires": [
+            [
+                "455c8a411ff644a5"
+            ]
+        ]
+    },
+    {
+        "id": "e59bd5cf89d392cc",
+        "type": "link out",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "link out 20",
+        "mode": "link",
+        "links": [
+            "1148d4178b7723b6"
+        ],
+        "x": 1065,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "bf09299883503e9d",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "12245006e538e18d",
+        "name": "link in 25",
+        "links": [
+            "5395202c0f0ad7c9"
+        ],
+        "x": 115,
+        "y": 840,
+        "wires": [
+            [
+                "f3054fde408ef388"
+            ]
+        ]
+    },
+    {
+        "id": "91b12a05ce16da8a",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Username",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 160,
+        "wires": [
+            [
+                "4f0b2c33eb27b4f1"
+            ]
+        ]
+    },
+    {
+        "id": "a383b504197933c2",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Get data",
+        "query": "select *\nFROM username",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 380,
+        "y": 160,
+        "wires": [
+            [
+                "d3d5ae51ee6310e8",
+                "8d485314bf7ae70e"
+            ]
+        ]
+    },
+    {
+        "id": "9182fa657f415ad5",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "Check Data Name",
+        "query": "select *\nFROM username\nWHERE first_name='{{msg.first_name}}' and last_name='{{msg.last_name}}'",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 270,
+        "y": 600,
+        "wires": [
+            [
+                "2759287e984686ee"
+            ]
+        ]
+    },
+    {
+        "id": "2759287e984686ee",
+        "type": "switch",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "property": "payload.rowCount",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 600,
+        "wires": [
+            [
+                "dbee3eaadb3872c4"
+            ],
+            [
+                "80a6e417206a1eec"
+            ]
+        ]
+    },
+    {
+        "id": "1e5b039aea69d8d4",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "link in 26",
+        "links": [
+            "453910053bf0a260"
+        ],
+        "x": 415,
+        "y": 80,
+        "wires": [
+            [
+                "91b12a05ce16da8a"
+            ]
+        ]
+    },
+    {
+        "id": "6eef2f9a7f4d9137",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d483ae89d35a741d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "username",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 640,
+        "wires": [
+            [
+                "453910053bf0a260"
+            ]
+        ]
+    },
+    {
+        "id": "93f3e0288fffef83",
+        "type": "ui-button",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "group": "cb26f0fdda386fe7",
+        "name": "",
+        "label": "Show All Data",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "274bf348a07a0596",
+                "a383b504197933c2"
+            ]
+        ]
+    },
+    {
+        "id": "7d6d8d824112089a",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "link in 27",
+        "links": [
+            "af59495c66304a29"
+        ],
+        "x": 245,
+        "y": 200,
+        "wires": [
+            [
+                "274bf348a07a0596"
+            ]
+        ]
+    },
+    {
+        "id": "b7d65fb58550f078",
+        "type": "http in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "b167039e773d3b1a",
+        "name": "",
+        "url": "/download",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 1340,
+        "wires": [
+            [
+                "a65f5e7ff8fbb119"
+            ]
+        ]
+    },
+    {
+        "id": "b7b98be0523602d6",
+        "type": "http response",
+        "z": "c3dd6c92241f1ea1",
+        "g": "b167039e773d3b1a",
+        "name": "Kirim File",
+        "statusCode": "",
+        "headers": {
+            "Content-Disposition": "attachment; filename=username.xlsx"
+        },
+        "x": 820,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "a65f5e7ff8fbb119",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "b167039e773d3b1a",
+        "name": "Get data",
+        "query": "select *\nFROM username",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 380,
+        "y": 1340,
+        "wires": [
+            [
+                "a99cc252c81f3241"
+            ]
+        ]
+    },
+    {
+        "id": "a99cc252c81f3241",
+        "type": "function",
+        "z": "c3dd6c92241f1ea1",
+        "g": "b167039e773d3b1a",
+        "name": "create array for row data",
+        "func": "var i;\nvar row_data = [];\n//First Row\nrow_data.push({\n  \"cells\": [\n    {\n      \"cell_value\": \"This table generated by Node-RED\"\n    }\n  ]\n});\n\n//Row blank\nrow_data.push({\n  \"cells\": [\n    {\n      \"cell_value\": \"\"\n    }\n  ]\n});\n\n//for header-------------------------\nrow_data.push({\n  \"row_styling\": {\n    \"fBold\": true,\n    \"hAlign\": \"center\",\n    \"vAlign\": \"center\",\n    \"borders\": {\n      \"all\": {\n        \"style\": \"medium\",\n        \"bColor\": \"000000\"\n      }\n    }\n  },\n  \"cells\": [\n    {\n      \"cell_value\": \"User Name\"\n    },\n    {\n      \"cell_value\": \"User ID\"\n    },\n    {\n      \"cell_value\": \"First Name\"\n    },\n    {\n      \"cell_value\": \"Last Name\"\n    }\n  ]\n\n});\n//for header-------------------------\n\nfor (i = 0; i < msg.payload.rows.length; i++) {\n  row_data.push({\n    \"row_styling\": {\n      \"hAlign\": \"center\",\n      \"vAlign\": \"center\",\n      \"borders\": {\n        \"all\": {\n          \"style\": \"thin\",\n          \"bColor\": \"000000\"\n        }\n      }\n    },\n    \"cells\": [\n      {\n        \"cell_value\": msg.payload.rows[i]['username']\n      },\n      {\n        \"cell_value\": msg.payload.rows[i]['user_id']\n      },\n      {\n        \"cell_value\": msg.payload.rows[i]['first_name']\n      },\n      {\n        \"cell_value\": msg.payload.rows[i]['last_name']\n      }\n    ]\n\n})\n};\n\n//Row blank\nrow_data.push({\n  \"cells\": [\n    {\n      \"cell_value\": \"\"\n    }\n  ]\n});\n\n//End Row\nrow_data.push({\n  \"row_styling\": {\n    \"hAlign\": \"left\",\n    \"vAlign\": \"center\"\n  },\n  \"cells\": [\n    {\n      \"cell_value\": \"Datasource: PostgreSQL Database, Table: username\"\n    }\n  ]\n\n});\n\nmsg.row_data = row_data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1340,
+        "wires": [
+            [
+                "00cdf977f9f2cb20"
+            ]
+        ]
+    },
+    {
+        "id": "00cdf977f9f2cb20",
+        "type": "function",
+        "z": "c3dd6c92241f1ea1",
+        "g": "b167039e773d3b1a",
+        "name": "create array for excel",
+        "func": "var jsonData = [{\n  \"sheet_name\": \"UserName\",\n  \"rows\":\n    msg.row_data\n}];\n\nmsg.payload = jsonData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1340,
+        "wires": [
+            [
+                "919757c216d70e99"
+            ]
+        ]
+    },
+    {
+        "id": "919757c216d70e99",
+        "type": "buffer-xlsx",
+        "z": "c3dd6c92241f1ea1",
+        "g": "b167039e773d3b1a",
+        "name": "",
+        "stylemerge": false,
+        "x": 390,
+        "y": 1400,
+        "wires": [
+            [
+                "e9bb28210f386107"
+            ]
+        ]
+    },
+    {
+        "id": "e9bb28210f386107",
+        "type": "file",
+        "z": "c3dd6c92241f1ea1",
+        "g": "b167039e773d3b1a",
+        "name": "",
+        "filename": "C:\\temp\\username.xlsx",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "setbymsg",
+        "x": 600,
+        "y": 1400,
+        "wires": [
+            [
+                "b7b98be0523602d6"
+            ]
+        ]
+    },
+    {
+        "id": "3acff1e16a0c8eb6",
+        "type": "ui-template",
+        "z": "c3dd6c92241f1ea1",
+        "g": "9d761a91d8918c78",
+        "group": "cb26f0fdda386fe7",
+        "page": "",
+        "ui": "",
+        "name": "Download",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "<!-- Tombol dengan background dan border -->\n<button class=\"md-raised nr-dashboard-form-button my-custom-button md-button md-ink-ripple\" onclick=\"window.location.href='http://192.168.0.103:1880/download';\">Download Excel</button>\n\n<style>\n    /* Gaya khusus untuk tombol */\n    .my-custom-button {\n        background-color: #4CAF50;\n        /* Warna latar belakang */\n        border: 2px solid #008CBA;\n        /* Warna border */\n        color: white;\n        /* Warna teks */\n        padding: 0 20px;\n        /* Padding tombol */\n        height: 65px;\n        /* Tinggi tombol */\n        line-height: 65px;\n        /* Line height tombol */\n        border-radius: 5px;\n        /* Border radius */\n        cursor: pointer;\n        /* Pointer cursor saat hover */\n        font-size: 16px; \n        /* Ukuran huruf */\n    }\n\n    .my-custom-button:hover {\n        background-color: #45a049;\n        /* Warna latar belakang saat hover */\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 160,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c6a0152c1ecd78e",
+        "type": "ui-form",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "",
+        "group": "53e4bfc0a27b69e4",
+        "label": "Insert Form",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "options": [
+            {
+                "label": "User Name",
+                "key": "username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "User ID",
+                "key": "user_id",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "First Name",
+                "key": "first_name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Last Name",
+                "key": "last_name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username": "",
+            "user_id": "",
+            "first_name": "",
+            "last_name": ""
+        },
+        "payload": "",
+        "submit": "Submit",
+        "cancel": "Clear",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "x": 170,
+        "y": 1040,
+        "wires": [
+            [
+                "50c4303916886a25"
+            ]
+        ]
+    },
+    {
+        "id": "50c4303916886a25",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "Get variable",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "msg",
+                "to": "payload.username",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "user_id",
+                "pt": "msg",
+                "to": "payload.user_id",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "first_name",
+                "pt": "msg",
+                "to": "payload.first_name",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "last_name",
+                "pt": "msg",
+                "to": "payload.last_name",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1040,
+        "wires": [
+            [
+                "14be6114fd25a264"
+            ]
+        ]
+    },
+    {
+        "id": "14be6114fd25a264",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "Check Data",
+        "query": "select *\nFROM username\nWHERE username='{{msg.username}}' or user_id='{{msg.user_id}}'",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 530,
+        "y": 1040,
+        "wires": [
+            [
+                "5a9670bc134e2ccf"
+            ]
+        ]
+    },
+    {
+        "id": "5a9670bc134e2ccf",
+        "type": "switch",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "",
+        "property": "payload.rowCount",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 1040,
+        "wires": [
+            [
+                "7c49a7acd25f6983"
+            ],
+            [
+                "3ec0edd5494e81c7"
+            ]
+        ]
+    },
+    {
+        "id": "7c49a7acd25f6983",
+        "type": "template",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Data already exist in Database!<br>\nCannot Insert This Data<br>\nUser Name: {{username}}<br>\nUser ID: {{user_id}}\n",
+        "output": "str",
+        "x": 840,
+        "y": 1020,
+        "wires": [
+            [
+                "976f45e4bbd939d1"
+            ]
+        ]
+    },
+    {
+        "id": "976f45e4bbd939d1",
+        "type": "ui-notification",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "ui": "2daa43f2ba1b1c32",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "10",
+        "showCountdown": true,
+        "outputs": 0,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "raw": true,
+        "className": "",
+        "name": "",
+        "x": 1210,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "3ec0edd5494e81c7",
+        "type": "postgrestor",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "Insert data row",
+        "query": "INSERT INTO username(username, user_id, first_name, last_name) \nVALUES('{{msg.username}}','{{msg.user_id}}','{{msg.first_name}}','{{msg.last_name}}')",
+        "postgresDB": "d39353cd.91093",
+        "output": true,
+        "outputs": 1,
+        "throwErrors": false,
+        "x": 860,
+        "y": 1080,
+        "wires": [
+            [
+                "e12954c0764dab60"
+            ]
+        ]
+    },
+    {
+        "id": "e12954c0764dab60",
+        "type": "template",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "Data has been recorded to database!",
+        "output": "str",
+        "x": 1040,
+        "y": 1080,
+        "wires": [
+            [
+                "976f45e4bbd939d1",
+                "0a13270cc9bfecd6"
+            ]
+        ]
+    },
+    {
+        "id": "0a13270cc9bfecd6",
+        "type": "link out",
+        "z": "c3dd6c92241f1ea1",
+        "g": "a6b41ce0bd1dc390",
+        "name": "link out 21",
+        "mode": "link",
+        "links": [
+            "29f05f024ad2eb2d"
+        ],
+        "x": 1165,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "29f05f024ad2eb2d",
+        "type": "link in",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "link in 28",
+        "links": [
+            "0a13270cc9bfecd6"
+        ],
+        "x": 245,
+        "y": 240,
+        "wires": [
+            [
+                "274bf348a07a0596"
+            ]
+        ]
+    },
+    {
+        "id": "c1e342c876abe79f",
+        "type": "change",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 60,
+        "wires": [
+            [
+                "33b98a8f26a44cfa"
+            ]
+        ]
+    },
+    {
+        "id": "4b7c43e879e106cb",
+        "type": "inject",
+        "z": "c3dd6c92241f1ea1",
+        "g": "d69249eb60c79690",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 710,
+        "y": 60,
+        "wires": [
+            [
+                "c1e342c876abe79f"
+            ]
+        ]
+    }
+]
